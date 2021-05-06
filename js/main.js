@@ -12,5 +12,8 @@ anime.timeline({loop: true})
     opacity: 0,
     duration: 1,
     easing: "easeOutExpo",
-    delay: 1000000
+    delay: 10000000
   });
+
+
+//   cursor
