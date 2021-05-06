@@ -1,51 +1,53 @@
-
-/* barra de navegacion  derecha */
+body {
+    background-color: rgb(0, 0, 0);
+}
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 10em;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
+    width: 7em;
+    background-color: #161616;
+    position: relative;
     overflow: auto;
   }
 
-  /* Sidebar links */
   .sidebar a {
+      position: relative;
     display: flex;
-    color: black;
-    padding: 1.5em;
-    text-decoration: none;
+    color: rgb(208, 208, 208);
+    width: 4.5em;
+    height: 3em;;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 0.06em rgb(58, 58, 58);
+    border-bottom: solid 0.06em rgb(58, 58, 58);
+    
+    
   }
+  .sidebar a.active {
+    position: relative;
+   display: flex;
+   color: rgb(204, 200, 200);
+   width: 4.6em;
+   margin-top: 6em;
+   height: 3em;;
+
+}
   
   #logoLateral{
-      background-color:#343534 ;
+      background-color:#000000 ;
       border: none;
-      width: 10em;
-      height: 10em;
+      width: 7em;
+      height: 7em;
 }
 
-
-  /* Active/current link */
-  .sidebar a.active {
-    background-color: #343534;
-    color: white;
+  .sidebar a:hover {
+      transition: 0.5s;
+     background-color: rgb(20, 20, 20);
+     color: rgb(253, 116, 11);
   }
   
-  /* Links on mouse-over */
-  .sidebar a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
   
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-  }
-  
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
   @media screen and (max-width: 700px) {
     .sidebar {
       width: 100%;
@@ -56,10 +58,31 @@
     div.content {margin-left: 0;}
   }
   
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
   @media screen and (max-width: 400px) {
     .sidebar a {
       text-align: center;
       float: none;
+    }
+  }
+
+
+  /* Media Query */
+
+  
+  @media screen and (min-width: 39.5em) {
+    div.example {
+         font-size: 1em;
+    }
+    .active{
+        margin-top: none;
+    }
+  }
+  
+  @media screen and (max-width: 20em) {
+    div.example {
+      font-size: 1em;
+    }
+    .active{
+        margin-top: none;
     }
   }
