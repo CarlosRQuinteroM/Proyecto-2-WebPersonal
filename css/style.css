@@ -48,8 +48,9 @@ body {
      color: rgb(253, 116, 11);
   }
 
-  /* Media Query */
 
+  /* Media Query */
+    
   
   @media screen and (min-width: 39.5em) {
     div.example {
@@ -86,10 +87,7 @@ body {
     display: inline-block;
     line-height: 1em;
   }
-
-
   /* social media  */
-
   .media{
     margin: 0;
     padding: 0;
@@ -100,7 +98,6 @@ body {
     overflow: auto;
     align-items: center;
   }
-
   .media a{
     display: flex;
     position: relative;
@@ -113,13 +110,11 @@ body {
   .link-sm{
     text-decoration: none;
 }
-
 #socialM-1:hover{
     transform: scale(2);
    text-decoration: none;
    color: rgb(221, 80, 45);
 }
-
 #socialM-2:hover{
     transform: scale(2);
     color: rgb(49, 149, 207);
@@ -133,5 +128,4 @@ body {
      text-decoration: none;
      color: rgb(185, 183, 183);
 }
-
 /* cursor */
