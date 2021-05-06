@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     width: 7em;
-    background-color: #161616;
+    background-color: #1b1b1b;
     position: relative;
     overflow: auto;
   }
@@ -21,8 +21,7 @@ body {
     align-items: center;
     border-top: solid 0.06em rgb(58, 58, 58);
     border-bottom: solid 0.06em rgb(58, 58, 58);
-    
-    
+    text-decoration: none;
   }
   .sidebar a.active {
     position: relative;
@@ -42,29 +41,12 @@ body {
 }
 
   .sidebar a:hover {
+    transform: scale(0.8);
+    border: none;
       transition: 0.5s;
      background-color: rgb(20, 20, 20);
      color: rgb(253, 116, 11);
   }
-  
-  
-  @media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
-  }
-  
-  @media screen and (max-width: 400px) {
-    .sidebar a {
-      text-align: center;
-      float: none;
-    }
-  }
-
 
   /* Media Query */
 
@@ -72,9 +54,9 @@ body {
   @media screen and (min-width: 39.5em) {
     div.example {
          font-size: 1em;
-    }
-    .active{
-        margin-top: none;
+         margin-top: none;
+         position: relative;
+         display: flex;
     }
   }
   
@@ -82,7 +64,54 @@ body {
     div.example {
       font-size: 1em;
     }
-    .active{
-        margin-top: none;
+    .example a{
+      float: top;
     }
+   
   }
+
+  /* social media  */
+
+  .media{
+    margin: 0;
+    padding: 0;
+    height: 27em;
+    width: 7em;
+    background-color: #1b1b1b;
+    position: relative;
+    overflow: auto;
+    align-items: center;
+  }
+
+  .media a{
+    display: flex;
+    position: relative;
+    top: 3em;
+    width: 1em;
+    height: 1em;
+    color: white;
+    margin: 1em;
+  }
+  .link-sm{
+    text-decoration: none;
+}
+
+#socialM-1:hover{
+    transform: scale(2);
+   text-decoration: none;
+   color: rgb(221, 80, 45);
+}
+
+#socialM-2:hover{
+    transform: scale(2);
+    color: rgb(49, 149, 207);
+}
+#socialM-3:hover{
+    transform: scale(2);
+  color: rgb(24, 86, 167);
+}
+#socialM-4:hover{
+    transform: scale(2);
+     text-decoration: none;
+     color: rgb(185, 183, 183);
+}
