@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(59, 59, 59);
 }
 .sidebar {
     margin: 0;
@@ -30,23 +30,32 @@ body {
    width: 4.6em;
    margin-top: 6em;
    height: 3em;;
-
 }
-  
+
   #logoLateral{
       background-color:#000000 ;
       border: none;
       width: 7em;
       height: 7em;
 }
-
-  .sidebar a:hover {
-    transform: scale(0.8);
-    border: none;
+   #textSidebar:hover {
+      transform: scale(0.8);
+      border: transparent;
       transition: 0.5s;
-     background-color: rgb(20, 20, 20);
-     color: rgb(253, 116, 11);
+      background-color: rgb(20, 20, 20);
+      color: rgb(253, 116, 11);
   }
+
+  .imagenFondo{
+    display: flex;
+    position: absolute;
+
+  }
+ #imagenFondo1{
+   position: relative;
+   top: -35em;
+   left: 10em;
+ }
 
 
   /* Media Query */
