@@ -5,7 +5,7 @@ anime.timeline({loop: 1})
     scale: [14,1],
     opacity: [0,0.8],
     easing: "easeOutCirc",
-    duration: 4000,
+    duration: 3000,
     delay: (el, i) => 2000 * i
   }) 
 
