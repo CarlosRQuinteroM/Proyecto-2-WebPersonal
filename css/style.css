@@ -58,8 +58,19 @@ body {
  }
  #imagenFondo2{
   position: relative;
-  top: -28em;
+  top: -30em;
   left: 7em;
+}
+
+#imagenFondo3{
+  position: relative;
+  top: -25em;
+  left: 1em;
+}
+#imagenFondo4{
+  position: relative;
+  top: -12.5em;
+  left: 80em;
 }
 
 
@@ -90,7 +101,7 @@ body {
   .ml15 {
     display: flex;
     position:absolute;
-    left: 3em;
+    left: 5em;
     top: 3.5em;
     font-size: 3.8em;
     text-transform: uppercase;
@@ -101,6 +112,10 @@ body {
   .ml15 .word {
     display: inline-block;
     line-height: 1em;
+  }
+  /* parrafo */
+  #parrafo{
+    
   }
   /* social media  */
   .media{
