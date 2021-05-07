@@ -72,6 +72,17 @@ body {
   top: -12.5em;
   left: 80em;
 }
+#imagenFondo5{
+  position: relative;
+  top: -2em;
+  left: -13em;
+}
+
+#imagenFondo6{
+  position: relative;
+  top: 3.5em;
+  left:15em;
+}
 
 
 
@@ -115,7 +126,13 @@ body {
   }
   /* parrafo */
   #parrafo{
-    
+    position: absolute;
+    display: flex;
+    left: 9em;
+    font-size: 3em;
+    font-family:monospace;
+    color: blanchedalmond;
+    opacity: 0.8;
   }
   /* social media  */
   .media{
