@@ -56,6 +56,12 @@ body {
    top: -35em;
    left: 10em;
  }
+ #imagenFondo2{
+  position: relative;
+  top: -28em;
+  left: 7em;
+}
+
 
 
   /* Media Query */
