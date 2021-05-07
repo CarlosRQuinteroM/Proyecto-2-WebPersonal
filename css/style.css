@@ -1,8 +1,9 @@
 body {
     background-color: rgb(59, 59, 59);
+    overflow: hidden;
 }
 .sidebar {
-    margin: 0;
+    margin: -1em;
     padding: 0;
     width: 7em;
     background-color: #1b1b1b;
@@ -75,13 +76,13 @@ body {
 #imagenFondo5{
   position: relative;
   top: -2em;
-  left: -13em;
+  left: -11em;
 }
 
 #imagenFondo6{
   position: relative;
-  top: 3.5em;
-  left:15em;
+  top: 5em;
+  left:-21em;
 }
 
 
@@ -136,9 +137,9 @@ body {
   }
   /* social media  */
   .media{
-    margin: 0;
+    margin: -1em;
     padding: 0;
-    height: 27em;
+    height: 29.4em;
     width: 7em;
     background-color: #1b1b1b;
     position: relative;
