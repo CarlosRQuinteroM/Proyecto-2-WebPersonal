@@ -43,7 +43,7 @@ body{
      border: transparent;
  }
   .container h1{
-      color: white;
+      color: rgb(177, 176, 176);
   }
   #portafolio{
       position: relative;
@@ -52,7 +52,9 @@ body{
  
   .card-padding{ 
       display: block;
-      padding: 18px;
+      padding: 3em;
   }
   
-  
+  .card{
+      margin-top: 4em;
+  }
