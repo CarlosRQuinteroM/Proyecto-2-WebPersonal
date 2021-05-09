@@ -52,3 +52,43 @@ body{
      position: relative;
      left: 40%;
  }
+ .card-padding{ 
+    display: block;
+    padding: 18px;
+}
+
+/* ================ */
+.container-contacto{
+    display:flex;
+    position: relative;
+    background: rgb(247, 246, 246);
+    top: 30px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.clearfix {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  .clearfix img {
+      width: 200px;
+      padding: 20px;
+  }
+
+#contacto{
+    color: rgb(129, 78, 78);
+    left: 40%;
+    position: relative;
+}
+
+#Textarea2{
+    height: 100px;
+}
+ .d-grid{
+     padding: 20px;
+ }
+.d-grid button {
+    background-color:rgb(138, 123, 95) ;
+    border: none;
+}
