@@ -35,4 +35,8 @@
 </div>
 ````
 
+# ***Resultado***
+
+[Click aqui y miremos el resultado en la WEB](https://carlosrquinterom.github.io/Proyecto-2-WebPersonal/index.html)
+
 
