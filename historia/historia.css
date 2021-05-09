@@ -1,12 +1,12 @@
 body{
-    background-image: url(img/background-body.jpg);
+    background-color:rgb(202, 202, 202);
     background-position:center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .topcontainer{
-   background-color: rgb(213, 212, 212);
+   background-color: rgb(182, 182, 182);
 }
 #id-navbar{
     background-color:transparent;
@@ -51,12 +51,9 @@ body{
 /*  Mi Historia */
 .container-center{
     position: grid;
-    border: black solid 1px ;
+    border-radius: 1em;
     
-    background-color: rgb(233, 230, 230);
-   
-    
-    
+    background-color: rgb(218, 218, 218);
 }
 .clearfix {
       display: block;
@@ -66,3 +63,4 @@ body{
     .clearfix img {
         width: 200px;
     }
+
