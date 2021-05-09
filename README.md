@@ -39,4 +39,8 @@
 
 [Click aqui y miremos el resultado en la WEB](https://carlosrquinterom.github.io/Proyecto-2-WebPersonal/index.html)
 
+*** 
+### Proyectos 
+ * [Te dejo el link de mis otros repositorios.. ](https://github.com/CarlosRQuinteroM?tab=repositories)
 
+<a href="https://github.com/CarlosRQuinteroM"  target="_blank" > <img src="https://www.flaticon.es/svg/vstatic/svg/25/25231.svg?token=exp=1620581548~hmac=77c86d34db2ec253fe5cc9352b825dd8" width="150" > </a>  
