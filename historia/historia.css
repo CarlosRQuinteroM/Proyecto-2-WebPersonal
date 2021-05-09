@@ -1,0 +1,21 @@
+body{
+    background-image: url(img/background-body.jpg);
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topcontainer{
+   background-color: rgb(213, 212, 212);
+}
+#id-navbar{
+    background-color:transparent;
+}
+#id-navbar:hover{
+    transform: scale(1.2);
+    color: rgb(24, 24, 24);
+}
+/* solo para la casilla de historia  */
+#id-navbar-historia {
+    transform: none;
+}
