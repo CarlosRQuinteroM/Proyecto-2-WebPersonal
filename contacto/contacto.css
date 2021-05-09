@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(172, 167, 161);
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topcontainer{
+   background-color: rgb(163, 184, 199);
+}
+#id-navbar{
+    background-color:transparent;
+}
+#id-navbar:hover{
+    transform: scale(1.2);
+    color: rgb(24, 24, 24);
+}
+/* solo para la casilla de contacto  */
+#id-navbar-contacto {
+    transform: none;
+}
+/* ----------- */
+.fa{
+    color: rgb(231, 231, 231);
+}
+.a-text{
+    text-decoration: none;
+    color: rgb(34, 33, 33);
+}
+.a-text:hover{
+    color: rgb(56, 54, 54);
+}
+.s-top{
+    position: relative;
+    top: 1px;
+}
+
+#buttonsearch{
+    border: transparent;
+    color:rgb(255, 255, 255) ;
+    background-color:transparent;
+}
+#buttonsearch:hover{
+    color:rgb(141, 141, 141);
+    transform: scale(1.3);
+    border: transparent;
+}
+ .container h1{
+     color: rgb(196, 196, 196);
+ }
+ #portafolio{
+     position: relative;
+     left: 40%;
+ }
