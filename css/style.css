@@ -7,14 +7,14 @@ body {
 }
 #id-navbar:hover{
   transform: scale(1.2);
-  color: grey;
+  color: rgb(34, 32, 32);
 }
 /* solo para la casilla de historia  */
 #id-navbar-home {
   transform: none;
 }
 /* ----------- */
-.fa{
+/* .fa{
   color: rgb(231, 231, 231);
 }
 .a-text{
@@ -51,45 +51,53 @@ body {
       transition: 0.5s;
       background-color: rgb(20, 20, 20);
       color: rgb(253, 116, 11);
-  }
+  } 
+*/
 
-  .imagenFondo{
-    display: flex;
-    position: absolute;
 
-  }
+
+
+
+
+
+/*  imagenes de codigo /*
+.imagenFondo{
+  display: flex;
+  position: relative;
+}
  #imagenFondo1{
-   position: relative;
-   top: -34em;
-   left: 10em;
+  position: absolute;
+   top: 5em;
+
  }
  #imagenFondo2{
-  position: relative;
-  top: -30em;
-  left: 7em;
+  position: absolute;
+  top: 9em;
+
 }
 
 #imagenFondo3{
-  position: relative;
-  top: -25em;
-  left: 1em;
+  position: absolute;
+  top: 14em;
+  width: 4em;
 }
 #imagenFondo4{
-  position: relative;
-  top: -12.5em;
-  left: 80em;
-}
+  position: absolute;
+  top: 30em;
+
+  width: 4em;
+} 
 #imagenFondo5{
-  position: relative;
-  top: -2em;
-  left: -11em;
+  position: absolute;
+  top: 37em;
+  width: 4em;
 }
 
 #imagenFondo6{
-  position: relative;
-  top: 5em;
-  left:-21em;
-}
+ position: absolute;
+  top:45em;
+  width: 4em;
+} 
 
 
   /* H1 titulo  */
@@ -98,7 +106,7 @@ body {
     display: flex;
     position:absolute;
     left: 5em;
-    top: 3.5em;
+    top: 6em;
     font-size: 3.8em;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -109,39 +117,66 @@ body {
     display: inline-block;
     line-height: 1em;
   }
+
+  
   /* parrafo */
   #parrafo{
     position: absolute;
     display: flex;
+    top: 15em;
     left: 9em;
     font-size: 3em;
     font-family:monospace;
     color: blanchedalmond;
     opacity: 0.8;
   }
-  /* social media  */
-  .media{
-    margin: -1em;
-    padding: 0;
-    height: 29.4em;
-    width: 7em;
-    background-color: #1b1b1b;
-    position: relative;
-    overflow: auto;
-    align-items: center;
-  }
-  .media a{
-    display: flex;
-    position: relative;
-    top: 3em;
-    width: 1em;
-    height: 1em;
-    color: white;
-    margin: 1em;
-  }
-  .link-sm{
-    text-decoration: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .media{
+  background-color:transparent;
+  width: 190px;
+  height: 100px;
+  position: absolute;
+  top: 80%;
+  left: 44%;
+  z-index: 2;
+  border: black solid 1px;
 }
+
+.link-sm{
+  text-decoration: none;
+}
+
 #socialM-1:hover{
     transform: scale(2);
    text-decoration: none;
@@ -159,31 +194,4 @@ body {
     transform: scale(2);
      text-decoration: none;
      color: rgb(185, 183, 183);
-}
-
-  /* Media Query */
-    
-  
-  @media screen and (min-width: 39.5em) {
-    div.example  {
-         font-size: 1em;
-         margin-top: none;
-         position: relative;
-         display: flex;
-    }
-  
-  }
-  
-  @media screen and (max-width: 20em) {
-    div.example {
-      font-size: 1em;
-    }
-    .example a{
-      float: top;
-    }
-   .sidebar {
-     display: flex;
-  
-
-  }
-  }
+}  */
