@@ -70,29 +70,32 @@ body {
 }
 
 #socialM-1:hover{
-  transform: scale(1.9);
+  transform: scale(2);
 color: white;
 text-decoration: none;
-color: rgb(163, 14, 9);
+background: #d6249f;
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+border-radius: 0.2em;
 }
 
 #socialM-2:hover{
-  transform: scale(1.9);
+  transform: scale(2);
 color: white;
 text-decoration: none;
-color: rgb(29, 29, 131);
+color: rgb(35, 35, 224);
 }
 #socialM-3:hover{
-  transform: scale(1.9);
+  transform: scale(2);
     color: white ; 
 text-decoration: none;
-color: rgb(50, 99, 163);
+color: rgb(54, 133, 236);
 }
 #socialM-4:hover{
-  transform: scale(1.9);
+  transform: scale(2);
    color: white;
    text-decoration: none;
-   color: grey;
+   color: rgb(175, 175, 175);
 }
 .link-sm{
   margin: 0.8em;
