@@ -1,0 +1,58 @@
+body{
+   background-color: rgb(224, 224, 224);
+}
+
+.topcontainer{
+    background-color: rgb(163, 184, 199);
+ }
+ #id-navbar{
+     background-color:transparent;
+ }
+ #id-navbar:hover{
+     transform: scale(1.2);
+     color: rgb(24, 24, 24);
+ }
+ /* solo para la casilla de portafolio  */
+ #id-navbar-portafolio {
+     transform: none;
+ }
+ /* ----------- */
+ .fa{
+     color: rgb(231, 231, 231);
+ }
+ .a-text{
+     text-decoration: none;
+     color: rgb(34, 33, 33);
+ }
+ .a-text:hover{
+     color: rgb(56, 54, 54);
+ }
+ .s-top{
+     position: relative;
+     top: 1px;
+ }
+ 
+ #buttonsearch{
+     border: transparent;
+     color:rgb(255, 255, 255) ;
+     background-color:transparent;
+ }
+ #buttonsearch:hover{
+     color:rgb(141, 141, 141);
+     transform: scale(1.3);
+     border: transparent;
+ }
+  .container h1{
+      color: white;
+  }
+  #portafolio{
+      position: relative;
+      left: 40%;
+  }
+ 
+  .card-padding{ 
+      display: block;
+      padding: 18px;
+  }
+  
+  
