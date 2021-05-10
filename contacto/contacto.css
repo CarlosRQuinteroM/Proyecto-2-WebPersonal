@@ -4,7 +4,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow:auto;
 }
 .topcontainer{
    background-color: rgb(163, 184, 199);

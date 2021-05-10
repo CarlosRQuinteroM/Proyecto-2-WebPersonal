@@ -1,6 +1,6 @@
 body {
     background-color: rgb(59, 59, 59);
-    overflow: hidden;
+    overflow:auto;
 }
 #id-navbar{
   background-color:transparent;
