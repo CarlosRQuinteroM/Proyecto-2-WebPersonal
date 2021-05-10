@@ -4,7 +4,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow:auto;
+    overflow:hidden;
 }
 .topcontainer{
    background-color: rgb(163, 184, 199);
@@ -95,54 +95,3 @@ body{
 }
 
 
-/* social M */
-.media{
-    background-color:transparent;
-    width: 25em;
-    height: 6.25em;
-    position: absolute;
-    top: 56em;
-    left:50em;
-
-    
-  }
-  
-  .link-sm{
-    text-decoration: none;
-  }
-  
-  #socialM-1:hover{
-    transform: scale(2);
-  color: white;
-  text-decoration: none;
-  background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  
-  border-radius: 0.2em;
-  }
-  
-  #socialM-2:hover{
-    transform: scale(2);
-  color: white;
-  text-decoration: none;
-  color: rgb(35, 35, 224);
-  }
-  #socialM-3:hover{
-    transform: scale(2);
-      color: white ; 
-  text-decoration: none;
-  color: rgb(54, 133, 236);
-  }
-  #socialM-4:hover{
-    transform: scale(2);
-     color: white;
-     background-color: black;
-
-     border-radius: 1.3em 1.3em 1.3em  50%  ;
-     text-decoration: none;
-     color: rgb(241, 241, 241);
-  }
-  .link-sm{
-    margin: 0.8em;
-    color: rgb(255, 255, 255);
-  }
